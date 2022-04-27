@@ -1,0 +1,33 @@
+img {
+    
+}
+
+header {
+    padding: 40px 0;
+
+}
+
+.caixa {
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+
+
+}
+
+li a {
+    text-decoration: none;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+}
