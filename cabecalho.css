@@ -2,37 +2,45 @@ html{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 img {
-    
+    width: 120px;
+}
+
+.logo {
+    margin-left: 30px;
 }
 
 header {
-    padding: 30px 0;
-    background-color: #313131
+    padding: 5px 0;
+    background-color: #282727
 }
 
 .caixa {
     position: relative;
-    width: 990px;
     margin: 0 auto;
-
 }
 
+
 nav {
-    position: absolute;
-    top: 90px;
-    right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 nav li {
     display: inline;
+    text-align: center;
+    margin-right: 50px;
 }
 
 li a {
-    color:#fcb900;
+    color:#acacac;
     text-decoration: none;
     margin: 0 0 0 20px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 1.4rem;
+    transition: 0.3s;
 }
 
 li a:hover {
