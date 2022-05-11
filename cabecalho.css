@@ -3,14 +3,14 @@ html{
 }
 img {
     width: 120px;
+  
 }
 
 .logo {
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 header {
-    padding: 5px 0;
     background-color: #282727
 }
 
