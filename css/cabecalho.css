@@ -4,7 +4,7 @@ html{
 
 
 .menu__header {
-    background-color: rgb(107, 105, 105);
+    background-color: rgb(255, 255, 255);
     position: relative;
     margin: 0 auto;
 }   
@@ -27,28 +27,29 @@ html{
 }
 
 .menu__lista a {
-    color:#acacac;
+    color:#717070;
     text-decoration: none;
     margin: 0 0 0 20px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.4rem;
     transition: 0.3s;
 }
 
 .menu__lista a:hover {
-    color: #ffffff;
+    color: #5295f9;
 }
+
 
 
 .texto__principal{
     text-align: center;
     text-transform: uppercase;
     font-weight:bold;
-    background-color: #515050;
+    background-color: #5295f9;
     padding: 1em;
     line-height: 3em;
-    color: rgb(255, 145, 2);
+    color: #ffffff;
 }
 /************************/
 .fundador__sectionOne {
@@ -106,10 +107,10 @@ html{
     display: inline-block;
 }
 
+/************************/
 .atividades {
-    
     text-align: center;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .atividades li{
