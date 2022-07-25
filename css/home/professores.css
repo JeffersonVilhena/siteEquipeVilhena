@@ -1,0 +1,77 @@
+.proffessores__icone-titulo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.professores__icone{
+    width:100px;
+    height:100px;
+}
+
+.professores__titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top:1rem;
+    color: #777777; 
+}
+
+.professores__texto {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #777777; 
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+/*----------------*/
+
+.professores_main {
+    display:flex;
+    width: 100;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.professores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    
+}
+
+.professores__conteudo {
+    display: flex;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.professores_img{ 
+    width: 150px;
+    border-radius:50%;
+}
+
+.professores__nome--graducao {
+    margin-top:2rem;
+    margin-left: .5rem;
+}
+
+.professor__none {
+    color: #6EC1E4;
+    font-weight: bold;
+}
+
+.professor__graduacao--registro{
+    line-height:1.5rem;
+}
+
+
+
+
+

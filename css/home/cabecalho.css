@@ -1,0 +1,66 @@
+html{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.barra__inicial{
+    display:flex;
+    justify-content:space-between;
+    background:#535252;
+    font-weight: bold;
+    padding-left: 8rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.barra_texto{
+    color:#f0f0f0;
+    text-transform: uppercase;
+}
+
+.barra__lista{
+    display:flex;
+}
+
+.iconRedesSociais {
+    width:20px;
+    height:20px;
+    margin-left:1rem;
+}
+
+
+.menu__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#0e0e0e;
+    padding:1rem;
+}
+
+.menu__logo {
+    width: 150px;
+}
+
+.menu__lista{
+    display: flex;
+    
+}
+
+.menu__lista--item{
+    margin-left: 1.3rem;
+}
+
+.menu__lista--link {
+    color: #f0f0f0;
+    font-size:1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu__lista--link:hover{
+    text-decoration: underline;
+}
+
+
+
+
