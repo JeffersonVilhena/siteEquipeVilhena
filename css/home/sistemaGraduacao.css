@@ -1,0 +1,30 @@
+.sistema__graduacao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.sistema__graduacao--icone{
+    width:100px;
+    height:100px;
+}
+
+.sistema__graduacao-titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top:1rem;
+    color: #777777; 
+}
+
+.sistema__graduacao-texto {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    color: #777777; 
+    line-height: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    width:990px;
+}
