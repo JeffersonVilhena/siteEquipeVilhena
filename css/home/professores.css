@@ -94,10 +94,23 @@
     }
 
     .professores {
+        margin-right: 1rem;
+        margin-left: 1rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content:space-around;
+        justify-content:center;
+    }
+
+    .professores__nome--graducao {
+        margin-top:1rem;
+        margin-left: .6rem;
+    }
+
+    .professor__none {
+        color: #6EC1E4;
+        font-weight: bold;
+        font-size: 1.4rem;;
     }
 
     
