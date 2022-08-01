@@ -3,7 +3,7 @@ html{
 }
 .fundador{
     display:flex;
-    width: 100;
+    width: 100%;
     justify-content: center;
 }
 
@@ -44,5 +44,44 @@ html{
     margin-top: 2rem;
     font-weight: bold;
 }
+
+@media (max-width:770px){
+   
+    .fundador__conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width: 100%;
+    }
+
+    .fundador__imagem {
+        margin-top: .1rem;
+        width: 100%;
+        height:100%;
+    }
+
+    .fundador__titulo{
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top:1rem;
+        color: #777777;
+        line-height: 3rem;
+    }
+
+    .fundador__descricao{
+        font-size: 1.2em;
+        margin-bottom: 2rem;
+        color: #777777; 
+        line-height: 2rem;
+        margin: 1rem;
+        font-weight: bold;
+    }
+
+  
+
+
+}
+
+
 
 

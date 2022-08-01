@@ -28,3 +28,18 @@
     font-weight: bold;
     width:990px;
 }
+
+@media (max-width:770px){
+    .sistema__graduacao-texto{
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: #777777; 
+        line-height: 2rem;
+        font-weight: bold;
+        width: 95%;
+        margin: 1rem;
+    }
+}
+

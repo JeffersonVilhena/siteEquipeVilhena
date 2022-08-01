@@ -28,6 +28,21 @@
 
 }
 
+@media(max-width:770px){
+    .professores__texto{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #777777; 
+    line-height: 2rem;
+    font-weight: bold;
+    width: 95%;
+    margin: 1rem;
+    }
+}
+
+
 /*----------------*/
 
 .professores_main {
@@ -43,7 +58,6 @@
     justify-content:space-around;
     margin-right: 3rem;
     margin-left: 3rem;
-    
 }
 
 .professores__conteudo {
@@ -70,6 +84,26 @@
 .professor__graduacao--registro{
     line-height:1.5rem;
 }
+
+@media(max-width:770px){
+    .professores_main {
+        display:flex;
+        width: 95%;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+
+    .professores {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+
+    
+
+}
+
 
 
 

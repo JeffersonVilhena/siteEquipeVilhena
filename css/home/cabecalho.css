@@ -62,3 +62,27 @@ html{
 }
 
 
+@media (max-width: 770px) { 
+    .barra__inicial{
+        display:flex;
+        justify-content:space-between;
+        background:#535252;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    } 
+
+    .menu__header {
+        display: flex;
+        justify-content: space-between;
+        background:#0e0e0e;
+        padding:.5rem;
+    }
+
+    .menu__logo {
+        width: 100px;
+    }
+
+}

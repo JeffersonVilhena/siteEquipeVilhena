@@ -29,6 +29,8 @@
     width:990px;
 }
 
+
+
 /*----------Atividades-----------*/
 .atividades_main{
     display: flex;
@@ -66,7 +68,6 @@
     margin-top: 1rem;
     font-weight: bold;
     text-align: center;
-
 }
 
 .atividades__texto{
@@ -87,3 +88,64 @@
 .color--black {
     color: #000000;
 } 
+
+@media (max-width:770px){
+
+    .escolas__equipeVilhena{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+    }
+    
+    .escolas__equipeVilhena-texto {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: #777777; 
+        line-height: 2rem;
+        font-weight: bold;
+        width: 95%;
+        margin: 1rem;
+    }
+
+    /*atividade main*/
+
+    .atividades{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        
+    }
+
+    .atividades__conteudo{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .atividades__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .atividades__titulos {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+
+    .atividades__texto{
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+        font-weight: bold;
+        width: 95%;
+    }
+
+
+}
+
