@@ -12,12 +12,17 @@
 
 .iconesCentroTelas{
     margin: 1rem;
-    height: 100px;
+    /*height: 100px;*/
     width: 100px;
 }
-
+/*
+.icone{
+    width:100px;
+    margin:1rem;
+}
+*/
 .titulos {
-    color:var(--cinza-texto);
+    color:var(--vermelho);
     font-family: var(--font);
     font-size: 2rem;
     font-weight: bold;
@@ -38,7 +43,7 @@
 
 @media (max-width:770px){
     .titulos {
-        color:var(--cinza-texto);
+        color:var(--vermelho);
         font-family: var(--font);
         font-size: 2rem;
         font-weight: bold;
