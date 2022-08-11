@@ -5,43 +5,6 @@
     width: 100%;
 }
 
-.professores__icone{
-    width:100px;
-    height:100px;
-}
-
-.professores__titulo{
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-top:1rem;
-    color: #777777; 
-}
-
-.professores__texto {
-    text-align: center;
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-    color: #777777; 
-    margin-top: 1rem;
-    font-weight: bold;
-
-}
-
-@media(max-width:770px){
-    .professores__texto{
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    color: #777777; 
-    line-height: 2rem;
-    font-weight: bold;
-    width: 95%;
-    margin: 1rem;
-    }
-}
-
 
 /*----------------*/
 
@@ -77,7 +40,7 @@
 }
 
 .professor__none {
-    color: #6EC1E4;
+    color: var(--azul-claro);
     font-weight: bold;
 }
 
@@ -108,13 +71,10 @@
     }
 
     .professor__none {
-        color: #6EC1E4;
+        color: var(--azul-claro);
         font-weight: bold;
         font-size: 1.4rem;;
     }
-
-    
-
 }
 
 

@@ -1,0 +1,106 @@
+.atividades {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.atividades_tela {
+    display: flex;
+    width: 990px;
+    justify-content:space-between;
+}
+
+.atividades__conteudo {
+   display: flex;
+   width: 320px;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.atividades__img {
+    width: 320px;
+    height: 320px;
+}
+
+.atividades__titulos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    color: var(--cinza-texto);
+}
+
+
+
+.atividades__texto {
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+
+.color--blue {
+    width:100%;
+    color: var(--azul-claro);
+}
+
+.color--red {
+    width:100%;
+    color: var(--vermelho);
+}
+
+
+.color--black {
+    width:100%;
+    color: var(--preto);
+} 
+
+@media (max-width:770px) {
+    .atividades_tela{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .atividades__conteudo{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;        
+    }
+
+    .atividades__titulos {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top:1rem;
+        margin-bottom:1rem;
+        color: var(--cinza-texto);
+    }
+    
+
+    .atividades__img {
+        width: 100vw;
+    }
+
+    .color--blue {
+        width:95%;
+        color: var(--azul-claro);
+    }
+    
+    .color--red {
+        width:95%;
+        color: var(--vermelho);
+    }
+    
+    .color--black {
+        width:95%;
+        color: var(--preto);
+    } 
+
+}
