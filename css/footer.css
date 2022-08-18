@@ -6,13 +6,13 @@
     width: 100%; 
 }
 
-.rodape__logo{
+.rodape__logo {
     margin-bottom: 2rem;
     margin-top: 2rem;
     width:150px;
 }
 
-.rodape_redeSocial{
+.rodape_redeSocial {
     display: flex;
     justify-content:space-between;
     width:120px;
@@ -24,16 +24,22 @@
     width: 30px;
 }
 
-.rodape__textoLink{
+.rodape__textoLink {
     margin-bottom: 2rem;
 }
-.rodape__link{
+.rodape__link {
     font-weight: bold;
     color:var(--branco);
     text-decoration: none;
 }
 
-.rodape__copyright{
+.rodape__textoIslander {
+    color: var(--branco);
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.rodape__copyright {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -58,5 +64,12 @@
 }
 
 @media (max-width:770px){
+    .rodape__textoIslander {
+        text-align: center;
+        color: var(--branco);
+        line-height:1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+    }
 
 }

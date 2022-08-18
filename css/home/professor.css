@@ -69,9 +69,11 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align:justify;
-        
     }
 
-    
-
+    .textosProfessor {
+        width: 95%;
+        margin: 1rem;
+        font-size: 1em;
+    }
 }

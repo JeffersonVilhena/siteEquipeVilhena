@@ -35,6 +35,16 @@
     text-align: justify;
 }
 
+.textosProfessor {
+    color: var(--cinza-texto);
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+    max-width: 990px;
+    text-align: justify;
+}
 
 @media (max-width:770px){
     .titulos {
