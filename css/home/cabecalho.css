@@ -28,7 +28,6 @@ html{
     margin-left:1rem;
 }
 
-
 .menu__header {
     display: flex;
     justify-content: space-around;
@@ -37,8 +36,30 @@ html{
     padding:1rem;
 }
 
+.menu__conteudo {
+    display: flex;
+}
+
+.menu__titulo-texto{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
 .menu__logo {
     width: 150px;
+}
+
+.menu__titulo {
+    color: Orange;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.menu__texto{
+    font-family: var(--fonte-islander);
+    font-size: 1.5rem;
+    color: var(--branco)
 }
 
 .menu__lista{
@@ -74,8 +95,13 @@ html{
         padding-bottom: 1rem;
     } 
 
+    .menu__nav{
+        margin-top:5px;
+    }
+
     .menu__header {
         display: flex;
+        flex-direction:column;
         justify-content: space-between;
         background:#0e0e0e;
         padding:.5rem;
@@ -83,6 +109,30 @@ html{
 
     .menu__logo {
         width: 100px;
+    }
+
+    .menu__conteudo{
+        display: flex;
+        margin: 0;
+    
+    }
+
+    .menu__titulo-texto{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 60vw;
+    }
+
+    .menu__titulo {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .menu__texto{
+        font-family: var(--fonte-islander);
+        font-size: .8rem;
+        line-height:1.2rem;
+        color: var(--branco)
     }
 
 }
